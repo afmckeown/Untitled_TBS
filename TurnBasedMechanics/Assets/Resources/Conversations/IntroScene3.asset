@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49ec6d18b9c2a54459001bc941dc2ca3, type: 3}
+  m_Name: IntroScene3
+  m_EditorClassIdentifier: 
+  _objectReferences:
+  - {fileID: 21300000, guid: e7d93b940580a7f44b86949d10b5599b, type: 3}
+  _serializedStateKeys:
+  - list
+  _serializedStateValues:
+  - '[{"messages":["What the F-"],"speaker":0,"anchor":"UpperLeft"},{"messages":["Shit,
+    how did they know we''d be here?"],"speaker":null,"anchor":"LowerRight"},{"messages":["Dextra."],"speaker":null,"anchor":"UpperLeft"},{"messages":["Oh,
+    that bitch."],"speaker":null,"anchor":"LowerRight"},{"messages":["Doesn''t matter
+    now. "],"speaker":null,"anchor":"UpperLeft"}]'
+  list:
+  - messages:
+    - What the F-
+    speaker: {fileID: 21300000, guid: e7d93b940580a7f44b86949d10b5599b, type: 3}
+    anchor: 0
+  - messages:
+    - Shit, how did they know we'd be here?
+    speaker: {fileID: 0}
+    anchor: 8
+  - messages:
+    - Dextra.
+    speaker: {fileID: 0}
+    anchor: 0
+  - messages:
+    - Oh, that bitch.
+    speaker: {fileID: 0}
+    anchor: 8
+  - messages:
+    - 'Doesn''t matter now. '
+    speaker: {fileID: 0}
+    anchor: 0

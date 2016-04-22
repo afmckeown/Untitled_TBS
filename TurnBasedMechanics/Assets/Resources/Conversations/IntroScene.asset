@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49ec6d18b9c2a54459001bc941dc2ca3, type: 3}
+  m_Name: IntroScene
+  m_EditorClassIdentifier: 
+  _objectReferences:
+  - {fileID: 21300000, guid: 7e2a69b3c30514bb7b27323833be5df7, type: 3}
+  - {fileID: 21300000, guid: dd3c210277d6fe24f9132be3d21781ae, type: 3}
+  - {fileID: 21300000, guid: 7e2a69b3c30514bb7b27323833be5df7, type: 3}
+  - {fileID: 21300000, guid: c86d331812d37ed4f8c6848836bb1e0c, type: 3}
+  _serializedStateKeys:
+  - list
+  _serializedStateValues:
+  - '[{"messages":["Who is that?"],"speaker":0,"anchor":"LowerRight"},{"messages":["Doesn''t
+    matter.","I''ll take care of it."],"speaker":1,"anchor":"UpperLeft"},{"messages":["Wait!","..."],"speaker":2,"anchor":"LowerRight"},{"messages":["It
+    didn''t work."],"speaker":3,"anchor":"UpperLeft"}]'
+  list:
+  - messages:
+    - Who is that?
+    speaker: {fileID: 21300000, guid: 7e2a69b3c30514bb7b27323833be5df7, type: 3}
+    anchor: 8
+  - messages:
+    - Doesn't matter.
+    - I'll take care of it.
+    speaker: {fileID: 21300000, guid: dd3c210277d6fe24f9132be3d21781ae, type: 3}
+    anchor: 0
+  - messages:
+    - Wait!
+    - '...'
+    speaker: {fileID: 21300000, guid: 7e2a69b3c30514bb7b27323833be5df7, type: 3}
+    anchor: 8
+  - messages:
+    - It didn't work.
+    speaker: {fileID: 21300000, guid: c86d331812d37ed4f8c6848836bb1e0c, type: 3}
+    anchor: 0
